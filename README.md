@@ -45,7 +45,7 @@ Androidアプリ上で動くじゃんけんゲームです。
 【はじめ～勝敗】<br>
 !["jankengame"](images/janken1.gif) <br>
 !["jankengame"](images/janken2.gif) <br>
-!["jankengame"](images/janken3-5win.gif) <br>
+!["jankengame"](images/janken3.gif) <br>
 
 　　　> [▲ トップへ戻る](#top)
  
