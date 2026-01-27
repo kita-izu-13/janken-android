@@ -42,9 +42,7 @@ Androidアプリ上で動くじゃんけんゲームです。
 　　　> [▲ トップへ戻る](#top)
 
 ## 実行イメージ<br>
- !["jankengame"](images/game1.png) <br>
-!["jankengame"](images/game2.png) <br>
-!["jankengame"](images/fin.png)<br>
+!["jankengame"](images/janken1.gif) <br>
 　　　> [▲ トップへ戻る](#top)
  
 ## 工夫した点<br>
