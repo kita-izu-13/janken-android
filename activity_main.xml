@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="270dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btnc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="チョキ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="グー"
+        app:layout_constraintEnd_toStartOf="@+id/btnc"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnc" />
+
+    <Button
+        android:id="@+id/btnp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パー"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnc"
+        app:layout_constraintTop_toTopOf="@+id/btnc" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="じゃんけんゲーム"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <TextView
+        android:id="@+id/subtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="じゃんけんの手を選んでね！"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnc" />
+
+    <ImageView
+        android:id="@+id/resultimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:srcCompat="@drawable/yoroshiku" />
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <ImageView
+        android:id="@+id/vsimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result2"
+        app:srcCompat="@drawable/text_versus_vs" />
+
+    <ImageView
+        android:id="@+id/playimg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toTopOf="@+id/btng"
+        app:layout_constraintEnd_toStartOf="@+id/vsimg"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:srcCompat="@drawable/thumbnail_janken" />
+
+    <ImageView
+        android:id="@+id/comimg"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/vsimg"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:srcCompat="@drawable/thumbnail_janken" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/play"
+        app:layout_constraintEnd_toEndOf="@+id/playimg"
+        app:layout_constraintStart_toStartOf="@+id/playimg"
+        app:layout_constraintTop_toBottomOf="@+id/playimg" />
+
+    <TextView
+        android:id="@+id/com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/com"
+        app:layout_constraintEnd_toEndOf="@+id/comimg"
+        app:layout_constraintStart_toStartOf="@+id/comimg"
+        app:layout_constraintTop_toBottomOf="@+id/comimg" />
+
+    <CheckBox
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtxt" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sound"
+        app:layout_constraintTop_toBottomOf="@+id/subtxt">
+
+        <RadioButton
+            android:id="@+id/easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="弱"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/nomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="中"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/deffault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="強"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無敵" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
