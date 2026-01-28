@@ -82,19 +82,6 @@ Androidアプリ上で動くじゃんけんゲームです。
 
 ・私の新たな趣味のひとつになりました！<br>
 　　　> [▲ トップへ戻る](#top)
- 
-## 制作物<br>
-　【 コマンドプロンプトで実行 】<br>
-・じゃんけんゲーム：[janken-java](https://github.com/kita-izu-13/janken-java)<br>
-
-　【 Webアプリで実行 】<br>
-・じゃんけんゲーム：[janken-ss](https://github.com/kita-izu-13/janken-ss)<br>
-・掲示板アプリ：[bbs-ss](https://github.com/kita-izu-13/bbs-ss)<br>
-・メモアプリ：[memo-ss](https://github.com/kita-izu-13/memo-ss)<br>
-
-　【 Androidアプリで実行 】<br>
-・じゃんけんゲーム：[janken-android](https://github.com/kita-izu-13/janken-android)<br>
-　　　> [▲ トップへ戻る](#top)
 
 ## その他<br>
 ・人物の画像・動画については、自作のものを使用しております。<br>
