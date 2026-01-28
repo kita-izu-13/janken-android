@@ -42,13 +42,13 @@ Androidアプリ上で動くじゃんけんゲームです。
 　　　> [▲ トップへ戻る](#top)
 
 ## 実行イメージ<br>
-・・・・・　はじめ～勝敗　・・・・・　　　<br>
+・・・・　はじめ～勝敗　・・・・　　　<br>
 　!["jankengame"](images/janken01.gif) 
 
- ・・・　連勝（トースト表示）・・・　　　<br>
+ ・・　連勝（トースト表示）・・　　　<br>
 　!["jankengame"](images/janken02.gif) 
 
- ・・・・・　５連勝以上　・・・・・<br>
+ ・・・・　５連勝以上　・・・・<br>
 　!["jankengame"](images/janken03.gif) 
 
 　　　> [▲ トップへ戻る](#top)
